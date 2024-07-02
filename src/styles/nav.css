@@ -1,0 +1,14 @@
+.nav__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  justify-content: space-around;
+
+  padding: 10px;
+}
+
+.nav__container button {
+  padding: 10px;
+  cursor: pointer;
+  width: 45px;
+}
