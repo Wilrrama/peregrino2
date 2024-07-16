@@ -1,15 +1,16 @@
 .nav__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 3px;
-  justify-content: space-around;
-  padding: 10px;
+  gap: 5px;
+  justify-content: center;
+  padding: 17px;
+  /* background-color: #007bff; */
 }
 
 .nav__container button {
   padding: 10px;
   cursor: pointer;
-  width: 45px;
+  width: 50px;
   border-radius: 5px;
 
   &:hover {

@@ -15,13 +15,17 @@
 }
 
 .list {
+  display: flex;
   list-style-type: none;
   padding: 0;
+  justify-content: center;
 }
 
 .item {
   display: flex;
   flex-direction: column;
+  min-width: 80%;
+  max-width: 80%;
   gap: 5px;
   align-items: center;
   margin-bottom: 20px;
