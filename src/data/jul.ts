@@ -3,10 +3,16 @@ import audio_02_07 from "../assets/audios/jul/02-07.opus";
 import audio_06_07 from "../assets/audios/jul/06-07.opus";
 import audio_13_07 from "../assets/audios/jul/13-07.opus";
 import audio_15_07 from "../assets/audios/jul/15-07.opus";
+import audio_19_07 from "../assets/audios/jul/19-07.opus";
+import audio_20_07 from "../assets/audios/jul/20-07.opus";
+import audio_21_07 from "../assets/audios/jul/21-07.opus";
+import audio_22_07 from "../assets/audios/jul/22-07.opus";
+import audio_25_07 from "../assets/audios/jul/25-07.opus";
 import bandeira from "../assets/img/bandeira_salto.jpg";
 import a4 from "../assets/img/a4.jpg";
 import recreio from "../assets/img/a2.jpg";
 import a1 from "../assets/img/A1.jpg";
+
 export interface IJulItem {
   id: number;
   img: string;
@@ -16,6 +22,46 @@ export interface IJulItem {
   audio: string;
 }
 export const jul = [
+  {
+    id: 11,
+    img: a1,
+    data: "25/07/2024",
+    nome: "Amanda 1",
+    word: "Salmos 133",
+    audio: audio_25_07,
+  },
+  {
+    id: 10,
+    img: recreio,
+    data: "22/07/2024",
+    nome: "Recreio 2000",
+    word: "Salmos 126",
+    audio: audio_22_07,
+  },
+  {
+    id: 9,
+    img: recreio,
+    data: "21/07/2024",
+    nome: "Assentamento rjm",
+    word: "Matheus cap 19 v 13",
+    audio: audio_21_07,
+  },
+  {
+    id: 8,
+    img: a1,
+    data: "20/07/2024",
+    nome: "Amanda 1",
+    word: "Números cap 23 v18",
+    audio: audio_20_07,
+  },
+  {
+    id: 7,
+    img: a4,
+    data: "19/07/2024",
+    nome: "Amanda 4",
+    word: "Lucas cap 8 v 22",
+    audio: audio_19_07,
+  },
   {
     id: 6,
     img: recreio,
