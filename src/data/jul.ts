@@ -8,6 +8,8 @@ import audio_20_07 from "../assets/audios/jul/20-07.opus";
 import audio_21_07 from "../assets/audios/jul/21-07.opus";
 import audio_22_07 from "../assets/audios/jul/22-07.opus";
 import audio_25_07 from "../assets/audios/jul/25-07.opus";
+import audio_26_07 from "../assets/audios/jul/26-07.opus";
+import audio_27_07 from "../assets/audios/jul/27-07.opus";
 import bandeira from "../assets/img/bandeira_salto.jpg";
 import a4 from "../assets/img/a4.jpg";
 import recreio from "../assets/img/a2.jpg";
@@ -22,6 +24,22 @@ export interface IJulItem {
   audio: string;
 }
 export const jul = [
+  {
+    id: 13,
+    img: a1,
+    data: "27/07/2024",
+    nome: "Amanda 1",
+    word: "João cap 16 v 20",
+    audio: audio_27_07,
+  },
+  {
+    id: 12,
+    img: a4,
+    data: "26/07/2024",
+    nome: "Amanda 4",
+    word: "Salmos 133",
+    audio: audio_26_07,
+  },
   {
     id: 11,
     img: a1,
