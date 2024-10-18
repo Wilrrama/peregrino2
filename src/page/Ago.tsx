@@ -1,12 +1,12 @@
 import React from "react";
-import { IFevItem, fev } from "../data/fev";
+import { IAgoItem, ago } from "../data/ago";
 import "../styles/stylesPage.css";
 
 export const Ago: React.FC = () => {
   return (
     <div className="container">
       <h1 className="title">Agosto</h1>
-      {fev.map((word: IFevItem) => (
+      {ago.map((word: IAgoItem) => (
         <ul key={word.id} className="list">
           <li className="item">
             <div className="content">
