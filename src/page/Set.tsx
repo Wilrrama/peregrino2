@@ -1,12 +1,12 @@
 import React from "react";
-import { IFevItem, fev } from "../data/fev";
 import "../styles/stylesPage.css";
+import { ISetItem, set } from "../data/set";
 
 export const Set: React.FC = () => {
   return (
     <div className="container">
       <h1 className="title">Setembro</h1>
-      {fev.map((word: IFevItem) => (
+      {set.map((word: ISetItem) => (
         <ul key={word.id} className="list">
           <li className="item">
             <div className="content">

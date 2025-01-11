@@ -1,12 +1,12 @@
 import React from "react";
-import { IFevItem, fev } from "../data/fev";
 import "../styles/stylesPage.css";
+import { dez, IDezItem } from "../data/dez";
 
 export const Dez: React.FC = () => {
   return (
     <div className="container">
       <h1 className="title">Dezembro</h1>
-      {fev.map((word: IFevItem) => (
+      {dez.map((word: IDezItem) => (
         <ul key={word.id} className="list">
           <li className="item">
             <div className="content">

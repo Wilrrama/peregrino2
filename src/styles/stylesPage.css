@@ -71,7 +71,7 @@
 
 @media (min-width: 768px) {
   .audio {
-    width: 70%;
+    width: 100%;
   }
   .container {
     width: 60%;

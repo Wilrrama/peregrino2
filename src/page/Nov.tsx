@@ -1,12 +1,13 @@
 import React from "react";
-import { IFevItem, fev } from "../data/fev";
+
 import "../styles/stylesPage.css";
+import { INovItem, nov } from "../data/nov";
 
 export const Nov: React.FC = () => {
   return (
     <div className="container">
       <h1 className="title">Novembro</h1>
-      {fev.map((word: IFevItem) => (
+      {nov.map((word: INovItem) => (
         <ul key={word.id} className="list">
           <li className="item">
             <div className="content">
